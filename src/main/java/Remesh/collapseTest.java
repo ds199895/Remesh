@@ -45,6 +45,7 @@ public class collapseTest extends PApplet {
         im=new ImportObj("D:\\360MoveData\\Users\\Administrator\\Documents\\WeChat Files\\wxid_h82vihn9t4rl22\\FileStorage\\File\\2022-09\\0917.3dm");
         import_dxf=new Import_dxf(this);
         mesh=import_dxf.getMesh("E:\\12.dxf");
+        println("change!");
 //        mesh=im.getObj();
         textFont(font);
 //        for(int i=0;i<10;i++){
